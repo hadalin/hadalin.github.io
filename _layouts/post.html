@@ -1,0 +1,42 @@
+---
+layout: base
+---
+
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/post.css' | relative_url }}?bust={{ site.time | date_to_xmlschema | cgi_escape }}">
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12" itemscope itemtype="http://schema.org/BlogPosting">
+
+                    <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+                        <span itemprop="name" content="{{ site.title }}"></span>
+                    </div>
+                    <span itemprop="datePublished" content="{{ page.date | date: '%F' }}"></span>
+                    <span itemprop="dateModified" content="{{ page.date | date: '%F' }}"></span>
+
+                    {% assign posts_url = '/posts' | relative_url %}
+                    <span itemprop="headline" content="{{ page.title }}"></span>
+                    {% include header.html breadcrumb_1_url=posts_url breadcrumb_1_title='Posts' heading=page.title %}
+                    <span class="date">{{ page.date | date:"%b %-d, %Y" }}</span>
+
+                    <div class="content" itemprop="articleBody">
+                        {{ content }}
+                    </div>
+
+                    {% if page.hackernews %}
+                    <span itemprop="discussionUrl" content="{{ page.hackernews }}"></span>
+                    <p class="discuss text-center">
+                        <a href="{{ page.hackernews }}">HN Thread</a>
+                    </p>
+                    {% endif %}
+
+                    {% include footer.html %}
+
+                </div>
+            </div>
+
+        </div>

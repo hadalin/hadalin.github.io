@@ -1,0 +1,81 @@
+---
+---
+
+@import "base";
+
+@media (min-width: 1000px) {
+    .container {
+        width: 770px;
+    }
+}
+
+h1 {
+    margin: 5px 0;
+    font-size: 2.4rem;
+    line-height: 1;
+}
+
+.date {
+    @include color-assign(color, primary-100);
+}
+
+.content {
+    margin-top: 30px;
+    font-size: 1.2em;
+    line-height: 1.8;
+    @include color-assign(color, primary-600);
+
+    p {
+        margin-bottom: 1.8rem;
+    }
+
+    a,
+    a:hover,
+    a:visited {
+        @include color-assign(color, primary-600);
+        text-decoration: underline;
+    }
+
+    code {
+        font-size: 0.8em;
+        padding: 2px 3px 1px;
+        @include color-assign(border, code-border, '1px solid here');
+        border-radius: 3px;
+        @include color-assign(background-color, code-background);
+        border-radius: 3px;
+        @include color-assign(color, code);
+
+        a,
+        a:hover,
+        a:visited {
+            @include color-assign(color, accent-500);
+        }
+    }
+
+    pre {
+        @include color-assign(color, primary-500);
+        font-size: 0.8em;
+        padding: 8px;
+        @include color-assign(border, code-border, '1px solid here');
+        border-radius: 4px;
+        @include color-assign(background-color, code-background);
+    }
+
+    blockquote {
+        margin-left: -20px;
+        padding-left: 23px;
+        @include color-assign(box-shadow, blockquote-border, 'inset 3px 0 0 0 here');
+        font-style: italic;
+    }
+}
+
+.footnotes {
+    margin-top: 4rem;
+    font-size: 0.8em;
+    line-height: 1.4;
+}
+
+.discuss {
+    margin-top: 2.5rem;
+    font-size: 0.8em;
+}
