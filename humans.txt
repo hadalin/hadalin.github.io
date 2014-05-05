@@ -1,0 +1,13 @@
+---
+layout: none
+---
+
+/* TEAM */
+	Site owner: {{ site.owner }}
+	Contact: {{ site.email }}
+	From: Slovenia
+
+/* SITE */
+	Last update: {{ site.time | date: "%F" }}
+	Language: English
+

@@ -1,0 +1,35 @@
+---
+layout: base
+title: Posts
+lang: en
+keywords:
+    - posts
+redirect_from:
+  - /blog/
+  - /essays/
+---
+
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/posts.css' | relative_url }}?bust={{ site.time | date_to_xmlschema | cgi_escape }}">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-8">
+
+                    {% include header.html heading="Posts" %}
+                    <small><a href="{{ 'feed.xml' | relative_url }}" class="feed">Feed</a></small>
+
+                    <ul class="list">
+                        {% for post in site.posts %}
+                        <li>
+                            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        </li>
+                        {% endfor %}
+                    </ul>
+
+                    {% include footer.html %}
+                </div>
+            </div>
+        </div>
