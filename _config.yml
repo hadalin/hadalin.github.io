@@ -1,0 +1,26 @@
+name: Primož Hadalin
+markdown: CommonMarkGhPages
+highlighter: rouge
+exclude: [CNAME, Gemfile, Gemfile.lock, README.md]
+permalink: /:categories/:title
+
+baseurl: /
+url: https://hadalin.me
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+defaults:
+  -
+    scope:
+      path: "files/**/*"
+    values:
+      sitemap: false
+
+sass:
+  style: compact
+
+email: primoz@hadalin.me
+github: https://github.com/hadalin
+gitlab: https://gitlab.com/primoz.hadalin
+linkedin: https://linkedin.com/in/hadalin

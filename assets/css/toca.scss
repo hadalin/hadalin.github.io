@@ -1,0 +1,94 @@
+---
+---
+
+@import "base";
+
+body {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 1.0em;
+    font-family: sans-serif;
+}
+.toca .heading {
+    margin-bottom: 60px;
+}
+.toca .justify {
+    text-align: justify;
+}
+.toca .jumbotron {
+    text-align: center;
+}
+.toca .jumbotron .title {
+	font-weight: bold;
+	font-size: 3.6em;
+}
+.toca .status {
+    margin-top: 40px;
+    font-size: 1.6em;
+}
+.toca .status .label {
+    opacity: 0.1;
+    margin-bottom: 20px;
+}
+.toca .status .glyphicon {
+    top: 2px;
+}
+.toca .small {
+    font-size: small;
+}
+
+.toca .toca-img-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+@-moz-keyframes rotation {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(359deg);
+    }
+}
+@-o-keyframes rotation {
+    from {
+        -o-transform: rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(359deg);
+    }
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+footer {
+    @include color-assign(border-top, primary-50, '1px solid here');
+    @include color-assign(color, primary-600);
+	margin-top: 20px;
+    padding-top: 5px;
+}
+
+footer .footer-content {
+	text-align: right;
+	font-size: 0.7em;
+}
+
+footer .footer-content p {
+	margin-bottom: 3px;
+	font-family: 'Verdana', sans-serif;
+}

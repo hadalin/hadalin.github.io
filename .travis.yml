@@ -1,0 +1,3 @@
+language: ruby
+install: bundle install
+script: bash _scripts/travis.sh $CFZ $CFE $CFK
