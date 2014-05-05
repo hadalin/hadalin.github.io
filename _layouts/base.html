@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html{% if page.lang %} lang="{{ page.lang }}"{% endif %}>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{ page.title }}{% if page.url != '/' %} - {{ site.title }}{% endif %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="icon" type="image/ico" href="{{ '/favicon.ico' | relative_url }}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
+        <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+        <link type="text/plain" rel="author" href="{{ '/humans.txt' | relative_url }}">
+
+        {% if page.description %}
+        <meta name="description" content="{{ page.description }}">
+        {% endif %}
+
+        {% if page.keywords %}
+        <meta name="keywords" content="{{ page.keywords | join: ',' }}">
+        {% endif %}
+
+        {% if page.canonical %}
+        <link rel="canonical" href="{{ page.canonical }}">
+        {% endif %}
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700&amp;subset=latin-ext">
+        <link rel="stylesheet" href="{{ '/assets/css/bootstrap-4.6.2.min.css' | relative_url }}">
+
+        <link rel="alternate" type="application/atom+xml" title="Posts Atom Feed" href="{{ 'feed.xml' | absolute_url }}">
+
+        <noscript>
+            <style>
+                .contains-js { display: none; }
+            </style>
+        </noscript>
+
+        <!-- The empty space inside script tag prevents CSS transition from firing on page load.
+             https://bugs.chromium.org/p/chromium/issues/detail?id=332189
+        -->
+        <script data-proofer-ignore> </script>
+
+
+        {{ content }}
+        {% comment %} Don't forget to add </head><body> when extending this layout. {% endcomment %}
+
+    </body>
+
+</html>

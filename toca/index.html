@@ -1,0 +1,83 @@
+---
+layout: base
+title: Twitter toča alarm
+lang: sl
+description: Twitter bot, ki tvita o regijah in večjih slovenskih mestih, kjer preti nevarnost toče.
+keywords:
+    - twitter
+    - nevarnost toče
+    - toča alarm
+    - ljubljana
+---
+
+<link rel="stylesheet" type="text/css" href="{{ '/assets/css/toca.css' | relative_url }}?bust={{ site.time | date_to_xmlschema | cgi_escape }}">
+
+</head>
+
+<body>
+
+    <div class="toca">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12">
+                    {% include header.html heading='Twitter toča alarm' %}
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-6 small">
+                    <div class="toca-img-container">
+                        <a href="https://twitter.com/NevarnostToce"><img src="{{ "/assets/img/toca.jpeg" | relative_url }}" alt="Toča" width="80" height="80"></a>
+                    </div>
+                    <p class="justify">
+                        Če so podatki <a href="http://meteo.arso.gov.si/met/sl/warning/hail/">Agencije RS za okolje</a> točni
+                        in če Toča strežnik dobiva zmerno količino električne energije,
+                        bi se morali na <a href="https://twitter.com/NevarnostToce">@NevarnostToce</a> pojavljati tviti o
+                        regijah in večjih slovenskih mestih, kjer preti nevarnost toče (tretja stopnja verjetnosti).
+                        Če imate Twitter račun, si lahko nastavite <a href="https://help.twitter.com/en/managing-your-account/notifications-on-mobile-devices">avtomatsko obveščanje</a>.
+                    </p>
+
+                    <p>100% delovanje ni zagotovljeno (višja sila pa to).</p>
+                </div>
+
+                <div class="col-6 small">
+                    <div class="toca-img-container">
+                        <a href="https://twitter.com/NevarnostToceLj"><img src="{{ "/assets/img/toca-lj.jpeg" | relative_url }}" alt="Toča" width="80" height="80"></a>
+                    </div>
+
+                    <p class="justify">Poleg @NevarnostToce obstaja tudi <a href="https://twitter.com/NevarnostToceLj">@NevarnostToceLj</a> - toča alarm posebej za <b></b>Ljubljano</b>. Če se pojavi potreba, lahko dodam še kakšno drugo mesto.</p>
+                </div>
+
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="row">
+
+                <div class="col-6">
+                    <a class="twitter-timeline" href="https://twitter.com/NevarnostToce?ref_src=twsrc%5Etfw">Tweets by NevarnostToce</a> <script async src="https://platform.twitter.com/widgets.js"></script>
+                </div>
+
+                <div class="col-6">
+                    <a class="twitter-timeline" href="https://twitter.com/NevarnostToceLj?ref_src=twsrc%5Etfw">Tweets by NevarnostToceLj</a> <script async src="https://platform.twitter.com/widgets.js"></script>
+                </div>
+
+            </div>
+
+            <footer>
+                <div class="row justify-content-end">
+                    <div class="col-12 footer-content">
+                        <p><a href="{{ site.baseurl }}">Hadalin</a></p>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+    </div>
+

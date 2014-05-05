@@ -1,0 +1,43 @@
+---
+layout: base
+---
+
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/home.css' | relative_url }}?bust={{ site.time | date_to_xmlschema | cgi_escape }}">
+
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Primož Hadalin">
+  <meta property="og:description" content="Software Engineer">
+  <meta property="og:image" content="{{ "/assets/img/hadalin_bw.jpg" | absolute_url }}">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="{{ site.url }}">
+  <meta name="twitter:title" content="Primož Hadalin">
+  <meta name="twitter:description" content="Software Engineer">
+  <meta name="twitter:image" content="{{ "/assets/img/hadalin_bw.jpg" | absolute_url }}">
+
+  <script type="application/ld+json">
+    {
+      "@context":"http://schema.org",
+      "@type":"Person",
+      "image":"{{ '/assets/img/hadalin.jpg' | absolute_url }}",
+      "name":"Primož Hadalin",
+      "givenName":"Primož",
+      "familyName":"Hadalin",
+      "email":"{{ site.email }}",
+      "gender":"male",
+      "url":"{{ site.url }}",
+      "jobTitle":"Software Engineer",
+      "description":"Experienced software engineer developing software that serves people and the planet.",
+      "nationality":{
+        "@type":"Country",
+        "name":"Slovenia"
+      }
+    }
+  </script>
+
+  </head>
+
+  <body>
+
+    {{ content }}
