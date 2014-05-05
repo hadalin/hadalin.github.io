@@ -1,0 +1,28 @@
+@import './colors';
+
+body {
+    @include color-assign(background-color, background);
+    @include color-assign(color, primary-500);
+
+    a {
+        @include color-assign(color, accent-500);
+    }
+
+    a:hover {
+        @include color-assign(color, accent-600);
+    }
+
+    font-family: 'Source Serif Pro', sans-serif;
+
+    .header {
+        .separator {
+            margin-left: 5px;
+            margin-right: 5px;
+            @include color-assign(color, primary-100);
+        }
+    }
+}
+
+.table {
+    @include color-assign(color, primary-500);
+}
