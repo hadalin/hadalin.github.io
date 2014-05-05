@@ -1,0 +1,89 @@
+==================================================================
+https://keybase.io/hadalin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hadalin.me
+  * I am hadalin (https://keybase.io/hadalin) on keybase.
+  * I have a public key with fingerprint 0212 3DFB 4587 655B 98BD  0DEF 0C38 0FA9 51AC 3BAB
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101cb382c4ae42063de6318bedb0017fcbc9565d60191da207a5568b957dca4026d0a",
+      "fingerprint": "02123dfb4587655b98bd0def0c380fa951ac3bab",
+      "host": "keybase.io",
+      "key_id": "0c380fa951ac3bab",
+      "kid": "01016e005fb3db9ef980f284330a9ae7d2151597aa9ebe9816c86ec776f707f832cb0a",
+      "uid": "37800e18a950e7f0d921d1011700fe19",
+      "username": "hadalin"
+    },
+    "merkle_root": {
+      "ctime": 1524471960,
+      "hash_meta": "a69db4f1d665fa70737574747a8fb92dbb040206d47e7fe9660842556ebc4c9d",
+      "seqno": 2428418
+    },
+    "revoke": {
+      "sig_ids": [
+        "667412b454e45d617f65ec7bdccc21620dab1886fff83b64091e7e127bc409270f"
+      ]
+    },
+    "service": {
+      "hostname": "hadalin.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1524471963,
+  "expire_in": 157680000,
+  "prev": "3a19db9b7c14f9e6b605dda729de6fbd4b6a645cfd034e297b890e7d694bc175",
+  "seqno": 47,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMP5AnicZVN7UFVFHL6oaBGKqOCjcuiYMkzI7J7H7jnXW4mT4zMHLQfzMbfds3vk
+yvUevOcCAt5eTCZoavhCEdTBKUshKW2UNIFJKyvfo4amon/4KIeyRh00bA/VONXs
+Hzu78/1+3/f7vt0ve3f3xMXE6wkfTt0xanvMty1Ovmfmj5VVJRK1WZHkLZFyedfG
+g4w7EX9ugEleCUAATarosqkSrsoAKYwjBeqUMwoAxJZJTUNDGkMAGpARGWCiaUin
+hoaZSVQgIwaIlC5ZgdBcHs4LB0IRt60MZYVZVNV0jDSNGjplgHELmIoOLGJokJgK
+JVQU5tiOWyHEUeLwjIAt7sTB/5e8/+Mf6kYcAM2iCqMGtwyBk3VVUQAxCMdMhhrU
+DEyIwSk3dIhMHXETY2RhgC1dkU3apTu/q52CdQA41AUT4NgCzJAhExQQA2BxaLhA
+h4dDZD4X6BzCSDAQkqLp0nwezg1yf9i2I663ZiTgIqAmqyqGBgJiPuLk+OfzCBGF
+BBmMqhZkCGkWEUIUrGFVLKJb1JAZpUA4ChBTsVDBDYSArsrCb05N1TSYkOHwBSFb
+8sqqGBbqQkGYF9i53CV3AnOFa47knSUhhFUoC/tVrorsRI5IE9NTZpqmDJEMGKFQ
+15FlCSsoUoEBOeZQxoIHGDIGljQn6pKFCwJmV3M3pn+PnyEO6VJe2I7Yph107yOR
+PMfruhIpynOBhZz6/27hp4EQE09EVBTwsBOwQ8IlgfyvYUq6xBfmBcLcH3ARGkYi
+GABcHl7gBkWgsNCg2ISqZXBEEdAYI1g2xLu1KFMpIkjVTIsBReWygaluiEQZMlRq
+Qqw9dFDFQieZK3oK30Ikkh/mUrSleXYPT0ycp2dsN/fveOIe7fvPjyou7Ov5vLH0
+XP6Sn16/5ysyso5eYDOyTn4yLfH07WFoijd5sic77erCdF/rxqaMz4703+K7tb9t
+bULn+VPyrLJ+k+2lT7UlPz6hd8GmykkLic+7pqhlDqmINl9KfLW2c0j1oKOlhuLb
+tuv9otpl2dWNsTXsDf+EgUNPr3tvT+HTKfdevFU6e2d7VVocD01Yhmp6vbVj/4Xh
+tTD1rO+LWL4iWH33hxGJ895JOl946kRTMCXzjL8DR5+Y2uFzUOr42mkDlqS9udyz
+fVDL1g+aGrPr9zZ5vUPaFmT8+m70Ut7q/hec+ImT1h26PixlcNnKRT1+Hq0O7rmn
+fPr+bq2j7l87Idd0b0ODz21hYxvmjD47/PlNN1YtqsuuffngzUPwyYnyzlvFu4Y+
+VvHR2sq79WPS7o6MfHM8v+HOyISs1qSVV/okfr9136rL4zJSN/VaOnvxvqphCQ0v
+vZJbHlcSc9DuvmBDNHPblorKjj/q0oo/drYGH5xbn9NQUncYlt+5tzd8oKb8MNj4
+y8X+45p7tD97MiX+QWYfq+PYbmV67aoNjzR+l3TnZNmyKRczK3alTp43o35m6Zj2
+2+fzk48c+zQZjx2wdHhnXXPWzc0rrzVpI5XyxQnTkqqT9nb7rXjz1KuV7Z32jWdG
++ElzNDZ/df396zeHXrm82xtJ+b3f8QPRzOda973d8PVXcZfObFw//rUX1mSMleKv
+Vq1IHBhc/ieCXPu5
+=LZLN
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hadalin
+
+==================================================================
+
