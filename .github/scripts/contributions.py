@@ -121,7 +121,6 @@ def level_for(count, thresholds):
 
 def render_svg(weeks, counts):
     thresholds = level_thresholds(counts)
-    total = sum(counts.get(d.isoformat(), 0) for week in weeks for d in week)
 
     width = MARGIN_LEFT + len(weeks) * STEP + 2
     height = MARGIN_TOP + 7 * STEP + MARGIN_BOTTOM
@@ -172,9 +171,6 @@ def render_svg(weeks, counts):
             )
 
     legend_y = MARGIN_TOP + 7 * STEP + 10
-    parts.append(
-        f'<text x="0" y="{legend_y + CELL - 2}">{total:,} contributions in the last year</text>'
-    )
     legend_x = width - 5 * STEP - 66
     parts.append(f'<text x="{legend_x - 32}" y="{legend_y + CELL - 2}">Less</text>')
     for level in range(5):
