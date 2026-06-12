@@ -4,7 +4,7 @@ commonmark:
   options: ["UNSAFE", "SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 highlighter: rouge
-exclude: [CNAME, Gemfile, Gemfile.lock, README.md]
+exclude: [CNAME, Gemfile, Gemfile.lock, README.md, Rakefile]
 permalink: /:categories/:title
 
 baseurl: /

@@ -2,11 +2,7 @@
 
 set -e
 
-rake test
-
-export CFZ=$CFZ
-export CFK=$CFK
-SUCCESS=$(curl -X POST "https://api.cloudflare.com/client/v4/zones/${CFZ}/purge_cache" \
+SUCCESS=$(curl -sf -X POST "https://api.cloudflare.com/client/v4/zones/${CFZ}/purge_cache" \
      -H "Authorization: Bearer ${CFK}" \
      -H "Content-Type: application/json" \
      --data '{"purge_everything":true}' \
