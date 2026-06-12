@@ -1,5 +1,4 @@
 *.DS_Store
-Gemfile.lock
 .ruby-gemset
 .vscode
 .sass-cache
