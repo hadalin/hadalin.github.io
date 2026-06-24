@@ -10,7 +10,7 @@ task :test do
       :report_missing_doctype => true,
       :check_opengraph => true,
       :check_favicon => true,
-      :ignore_status_codes => [403, 503, 999],
+      :ignore_status_codes => [403, 429, 503, 999],
       :url_ignore => [/^https:\/\/twitter.com.*$/, /^https:\/\/web.archive.org.*$/],
       :typhoeus => {
         :ssl_verifypeer => false,
