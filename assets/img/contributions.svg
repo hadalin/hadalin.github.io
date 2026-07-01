@@ -31,7 +31,7 @@ text { fill: #acacac; }
 <text x="0" y="67">Wed</text>
 <text x="0" y="93">Fri</text>
 <rect class="c0" x="30" y="20" width="10" height="10" rx="2"><title>2025-06-29: 0 contributions</title></rect>
-<rect class="c2" x="30" y="33" width="10" height="10" rx="2"><title>2025-06-30: 11 contributions</title></rect>
+<rect class="c0" x="30" y="33" width="10" height="10" rx="2"><title>2025-06-30: 0 contributions</title></rect>
 <rect class="c3" x="30" y="46" width="10" height="10" rx="2"><title>2025-07-01: 19 contributions</title></rect>
 <rect class="c4" x="30" y="59" width="10" height="10" rx="2"><title>2025-07-02: 32 contributions</title></rect>
 <rect class="c2" x="30" y="72" width="10" height="10" rx="2"><title>2025-07-03: 13 contributions</title></rect>
@@ -396,7 +396,8 @@ text { fill: #acacac; }
 <rect class="c0" x="693" y="98" width="10" height="10" rx="2"><title>2026-06-27: 0 contributions</title></rect>
 <rect class="c0" x="706" y="20" width="10" height="10" rx="2"><title>2026-06-28: 0 contributions</title></rect>
 <rect class="c0" x="706" y="33" width="10" height="10" rx="2"><title>2026-06-29: 0 contributions</title></rect>
-<rect class="c0" x="706" y="46" width="10" height="10" rx="2"><title>2026-06-30: 0 contributions</title></rect>
+<rect class="c3" x="706" y="46" width="10" height="10" rx="2"><title>2026-06-30: 16 contributions</title></rect>
+<rect class="c0" x="706" y="59" width="10" height="10" rx="2"><title>2026-07-01: 0 contributions</title></rect>
 <text x="558" y="129">Less</text>
 <rect class="c0" x="590" y="121" width="10" height="10" rx="2"/>
 <rect class="c1" x="603" y="121" width="10" height="10" rx="2"/>
