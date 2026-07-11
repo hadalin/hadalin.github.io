@@ -34,7 +34,7 @@ text { fill: #acacac; }
 <rect class="c0" x="30" y="33" width="10" height="10" rx="2"><title>2025-07-07: 0 contributions</title></rect>
 <rect class="c0" x="30" y="46" width="10" height="10" rx="2"><title>2025-07-08: 0 contributions</title></rect>
 <rect class="c0" x="30" y="59" width="10" height="10" rx="2"><title>2025-07-09: 0 contributions</title></rect>
-<rect class="c2" x="30" y="72" width="10" height="10" rx="2"><title>2025-07-10: 8 contributions</title></rect>
+<rect class="c0" x="30" y="72" width="10" height="10" rx="2"><title>2025-07-10: 0 contributions</title></rect>
 <rect class="c4" x="30" y="85" width="10" height="10" rx="2"><title>2025-07-11: 23 contributions</title></rect>
 <rect class="c0" x="30" y="98" width="10" height="10" rx="2"><title>2025-07-12: 0 contributions</title></rect>
 <rect class="c0" x="43" y="20" width="10" height="10" rx="2"><title>2025-07-13: 0 contributions</title></rect>
@@ -399,7 +399,8 @@ text { fill: #acacac; }
 <rect class="c3" x="706" y="46" width="10" height="10" rx="2"><title>2026-07-07: 15 contributions</title></rect>
 <rect class="c1" x="706" y="59" width="10" height="10" rx="2"><title>2026-07-08: 3 contributions</title></rect>
 <rect class="c2" x="706" y="72" width="10" height="10" rx="2"><title>2026-07-09: 10 contributions</title></rect>
-<rect class="c0" x="706" y="85" width="10" height="10" rx="2"><title>2026-07-10: 0 contributions</title></rect>
+<rect class="c2" x="706" y="85" width="10" height="10" rx="2"><title>2026-07-10: 8 contributions</title></rect>
+<rect class="c0" x="706" y="98" width="10" height="10" rx="2"><title>2026-07-11: 0 contributions</title></rect>
 <text x="558" y="129">Less</text>
 <rect class="c0" x="590" y="121" width="10" height="10" rx="2"/>
 <rect class="c1" x="603" y="121" width="10" height="10" rx="2"/>
